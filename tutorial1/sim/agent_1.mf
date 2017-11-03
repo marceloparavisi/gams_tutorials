@@ -1,0 +1,17 @@
+
+// Setup VREP port for agent
+.vrep_port = 19907;
+
+/**
+ * Change the following to unique coordinates
+ * for each agent file
+ **/
+.initial_lat = 40.4433156117793;
+.initial_lon = -79.9403316607153;
+.initial_alt = 4;
+
+/**
+ * Set to .algorithm variable from common.mf
+ * Feel free to change this to whatever you like
+ **/
+agent.1.algorithm = "consumer";
